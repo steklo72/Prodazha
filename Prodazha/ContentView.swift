@@ -25,7 +25,7 @@ struct LoginView: View {
 
                     // TextFields
                     VStack(spacing: 15) {
-                        TextField("Email", text: $email)
+                        TextField("Логин", text: $email)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
 
                         SecureField("Password", text: $password)
