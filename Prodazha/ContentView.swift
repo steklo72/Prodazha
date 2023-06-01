@@ -33,17 +33,17 @@ struct LoginView: View {
                     }
                     .padding(.horizontal)
 
-                    // Login Button
-//                    NavigationLink(destination: HomeView()) {
-//                        Text("Log in")
-//                            .frame(maxWidth: .infinity)
-//                            .font(.headline)
-//                            .foregroundColor(.white)
-//                            .padding()
-//                            .background(Color("MainColor"))
-//                            .cornerRadius(8)
-//                            .padding(.horizontal)
-//                    }
+//                     Login Button
+                    NavigationLink(destination: HomeView()) {
+                        Text("Log in")
+                            .frame(maxWidth: .infinity)
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color("MainColor"))
+                            .cornerRadius(8)
+                            .padding(.horizontal)
+                    }
 
                     Spacer()
                 }

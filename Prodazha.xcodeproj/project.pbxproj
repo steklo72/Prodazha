@@ -11,6 +11,7 @@
 		1E940E992A271B2A002A3D71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E940E982A271B2A002A3D71 /* ContentView.swift */; };
 		1E940E9B2A271B2C002A3D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E940E9A2A271B2C002A3D71 /* Assets.xcassets */; };
 		1E940E9E2A271B2C002A3D71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E940E9D2A271B2C002A3D71 /* Preview Assets.xcassets */; };
+		1EFA62C32A28521500F41B87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA62C22A28521500F41B87 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1E940E982A271B2A002A3D71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E940E9A2A271B2C002A3D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E940E9D2A271B2C002A3D71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EFA62C22A28521500F41B87 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1E940E952A271B2A002A3D71 /* Prodazha */ = {
 			isa = PBXGroup;
 			children = (
+				1EFA62C22A28521500F41B87 /* HomeView.swift */,
 				1E940E962A271B2A002A3D71 /* ProdazhaApp.swift */,
 				1E940E982A271B2A002A3D71 /* ContentView.swift */,
 				1E940E9A2A271B2C002A3D71 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFA62C32A28521500F41B87 /* HomeView.swift in Sources */,
 				1E940E992A271B2A002A3D71 /* ContentView.swift in Sources */,
 				1E940E972A271B2A002A3D71 /* ProdazhaApp.swift in Sources */,
 			);
