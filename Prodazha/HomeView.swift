@@ -13,6 +13,7 @@ struct HomeView: View {
         NavigationView {
             Text("Hello its Hime")
             Text("Privet")
+            Text("NewBranch")
         }
     }
 }
