@@ -11,9 +11,12 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
-            Text("Hello its Hime")
-            Text("Privet")
-            Text("NewBranch")
+            VStack{
+                Text("Hello its s")
+                Text("Privet")
+                Text("NewBranch")
+            }
+            
         }
     }
 }
